@@ -27,6 +27,10 @@ section {
     gap: 5rem;
 }
 
+.content .header {
+    border-left: 6px solid #156f5e;
+}
+
 .container .content {
     flex: 1 1 41rem;
 }
@@ -41,6 +45,7 @@ span {
     font-style: normal;
     font-weight: normal;
     color: #4f3907;
+    padding-left: 1rem;
 }
 
 .container .content h2 {
@@ -141,6 +146,7 @@ strong {
 .develop .container .content h1 {
     font-size: 5rem;
     margin-bottom: 1.5rem;
+    padding: 0;
 }
 
 /* global section */
@@ -149,13 +155,17 @@ strong {
     flex: 1 1 15rem;
 }
 
+.global .container .content h1 {
+    padding: 1.5rem 0;
+}
+
 /* contact section start */
 
 .heading {
-    padding-top: 4rem;
     font-size: 4.5rem;
     color: #4c544f;
     text-align: center;
+    padding: 5rem 0;
 }
 
 .contact .row {
