@@ -27,7 +27,7 @@ section {
     gap: 5rem;
 }
 
-.content .header {
+.content .heding {
     border-left: 6px solid #156f5e;
 }
 
@@ -187,6 +187,7 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact .row .image img {
